@@ -14,11 +14,11 @@ import { setPages, sortColumn } from "../../store/userSlice";
 function TableComponent(props) {
   const dispatch = useDispatch();
   const user = useSelector(({ user }) => user);
-  const { filter, error } = user;
+  const { filter } = user;
   const { columns, title, data, options, isLoading, count } = props;
   const [selected, setSelected] = useState([]);
-  const [page, setPage] = useState(0);
-  const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [page] = useState(0);
+  const [rowsPerPage] = useState(10);
   const [order, setOrder] = useState("");
   const [orderBy, setOrderBy] = useState("");
 
