@@ -62,7 +62,7 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchData());
-  }, []);
+  }, [dispatch]);
 
   if (error) {
     setTimeout(() => {
