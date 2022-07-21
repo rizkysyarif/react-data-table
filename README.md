@@ -19,7 +19,7 @@
 
 ## Introduction
 
-> This simple data table with pagination, sort column, select column, and filter column features.
+> This is simple data table using ReactJS with pagination, sort column, select column, and filter column features.
 
 ## Deployment
 
