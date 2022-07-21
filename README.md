@@ -23,7 +23,7 @@
 
 ## Deployment
 
-> Live Preview in https://custom-react-data-table.netlify.app/
+> Live preview in https://custom-react-data-table.netlify.app/
  
 ## Data Source
 > API reference https://randomuser.me/documentation
